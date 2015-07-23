@@ -1,7 +1,15 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
+Have you ever wondered:
+* what technologies .NET really includes? 
+* how many do I posses?
 
+```
+I could not find a really comprehensive diagram that shows the .NET technology stack, so I come up with my own version.
+
+There might be issues here and there, like the category, the individual ones, but the beautity is you can modify it as you want.
+```
 
 Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time) | Framework (Fx) Tools
 
