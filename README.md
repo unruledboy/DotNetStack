@@ -1,6 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.1/Dot%20Net%20Stack%20v1.1.png)
 
 # What and why?
 Have you ever wondered:
