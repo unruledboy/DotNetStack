@@ -1,7 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
-![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.3/Net%20Stack%20v1.3.png)
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.4/Net%20Stack%20v1.4.png)
 
 # What and why?
 Have you ever wondered:
@@ -15,7 +15,11 @@ There might be issues here and there, like the category, the individual ones, bu
 
 
 # The .NET Stack
-Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time) | Framework (Fx) Tools
+IoC (Autofac,AutoMapper,Unity,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...) |Components
+
+ADO.NET (SQL Server, Oracle, MySQL...), O/RM (Entity Framework, NHinbernate...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
+
+Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time), sn, gacutil (GAC) | Framework (Fx) Tools
 
 ClickOnce, Web/FTP, Cloud, File|Deploy/Publish
 
