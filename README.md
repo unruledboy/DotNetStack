@@ -1,7 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
-![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.4/Net%20Stack%20v1.4.png)
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.5/Net%20Stack%20v1.5.png)
 
 # What and why?
 Have you ever wondered:
@@ -29,7 +29,7 @@ MSBuild, CodeDom, Roslyn|Build
 
 Team Foundation Server (TFS), NuGet, Chocolatey, PowerShell | Productivity
 
-Windows Runtime(WinRT), Mono, Xamarin, Universal Apps (WinJS...), .NET Native, Windows Phone SDK,Azure | Platforms
+Windows Runtime(WinRT), Xamarin, Universal Apps (WinJS...), .NET Native, Windows Phone SDK,Azure | Platforms
 
 Visual Studio, Visual Studio Online, Visual Studio Code, Blend, LightSwitch, MonoDevelop, SharpDevelop|Development
 
@@ -53,7 +53,7 @@ Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading
 
 Common Type System (CTS) / Common Language Specification (CLS) / Common Intermediate Language (CIL)
 
-.NET Framework, .NET Core, .NET Microsoft Framework (MF), .NET Compact Framework (CF)
+.NET Framework, .NET Core, Mono, .NET Microsoft Framework (MF), .NET Compact Framework (CF)
 
 Common Language Runtime (CLR) : Just-In-Time (JIT), Garbage Collector (GC), Security...
 
