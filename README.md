@@ -1,7 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
-![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.5/Net%20Stack%20v1.5.png)
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.6/Net%20Stack%20v1.6.png)
 
 # What and why?
 Have you ever wondered:
@@ -15,7 +15,7 @@ There might be issues here and there, like the category, the individual ones, bu
 
 
 # The .NET Stack
-IoC (Autofac,AutoMapper,Unity,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...) |Components
+IoC (Autofac,Unity,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...), Log (log4net) |Components
 
 ADO.NET (SQL Server, Oracle, MySQL...), O/RM (Entity Framework, NHinbernate...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
 
