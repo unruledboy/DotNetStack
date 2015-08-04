@@ -15,9 +15,10 @@ There might be issues here and there, like the category, the individual ones, bu
 
 
 # The .NET Stack
-IoC (Autofac,Unity,NInject,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...), Log (log4net) |Components
 
-ADO.NET (SQL Server, Oracle, MySQL, Sqlite...), O/RM (Entity Framework, NHinbernate...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
+IoC (Autofac,Unity,NInject,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...) |Components
+
+ADO.NET (SQL Server, Oracle, MySQL,Sqlite...), O/RM (Entity Framework, NHinbernate,AutoMapper...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
 
 Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time), sn, gacutil (GAC) | Framework (Fx) Tools
 
@@ -25,7 +26,7 @@ ClickOnce, Web/FTP, Cloud, File|Deploy/Publish
 
 MSUnit, NUnit, Mock (Moq...), Fakes|Testing
 
-MSBuild, CodeDom, Roslyn|Build
+MSBuild, CodeDom, Roslyn,CruiseControl.NET|Build
 
 Team Foundation Server (TFS), NuGet, Chocolatey, PowerShell | Productivity
 
@@ -33,7 +34,7 @@ Windows Runtime(WinRT), Xamarin, Universal Apps (WinJS...), .NET Native, Windows
 
 Visual Studio, Visual Studio Online, Visual Studio Code, Blend, LightSwitch, MonoDevelop, SharpDevelop|Development
 
-Windows Workflow Foundation (WWF), Entity Framework (EF), Managed Extensibility Framework (MEF), Reactive Extensions (Rx), Enterprise Library | SDKs
+Windows Workflow Foundation (WWF), Managed Extensibility Framework (MEF), Reactive Extensions (Rx), Enterprise Library | SDKs
 
 SignalR, Nancy, Katana  | Open Web Interface for .NET (OWIN)
 
@@ -43,21 +44,22 @@ ASP.NET Runtime, ASP.NET Web Pages, ASP.NET Web Forms (with Ajax Control Toolkit
 
 Windows Forms, Windows Presentation Foundation(WPF, with XAML), Console, Windows Service | Desktop
 
-IronPython, IronRuby, IronScheme... | DLR Languages 
+IronPython, IronRuby, IronScheme, IronLisp... | DLR Languages 
 
 Dynamic Language Runtime (DLR) 
 
-C#, VB.NET, F#, C++/CLI.... | CLR Languages
+C#, VB.NET, F#, C++/CLI, ClojureCLR, Fantom.... | CLI Languages
 
 Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading, IO, Net, Text, Drawing, Security, Diagnostics, Reflection, LINQ, InterOp, Task Parallel Library (TPL)...
 
-Common Type System (CTS) / Common Language Specification (CLS) / Common Intermediate Language (CIL)
+.NET Framework, .NET Core, Mono, DNX (.NET Execution Environment), .NET Micro Framework (MF), .NET Compact Framework (CF)
 
-.NET Framework, .NET Core, Mono, DNX (.NET Execution Environment), .NET Microsoft Framework (MF), .NET Compact Framework (CF)
+Common Type System (CTS) / Common Language Specification (CLS) / Common Intermediate Language (CIL)
 
 Common Language Runtime (CLR) : Just-In-Time (JIT), Garbage Collector (GC), Security...
 
 Common Language Infrastructure (CLI)
 
 OS
+
 
