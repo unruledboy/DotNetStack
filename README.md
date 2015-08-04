@@ -1,7 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
-![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.6/Net%20Stack%20v1.6.png)
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.7/Net%20Stack%20v1.7.png)
 
 # What and why?
 Have you ever wondered:
@@ -15,9 +15,9 @@ There might be issues here and there, like the category, the individual ones, bu
 
 
 # The .NET Stack
-IoC (Autofac,Unity,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...), Log (log4net) |Components
+IoC (Autofac,Unity,NInject,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTransit..), Schedule (Quartz.NET...), Log (log4net) |Components
 
-ADO.NET (SQL Server, Oracle, MySQL...), O/RM (Entity Framework, NHinbernate...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
+ADO.NET (SQL Server, Oracle, MySQL, Sqlite...), O/RM (Entity Framework, NHinbernate...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
 
 Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time), sn, gacutil (GAC) | Framework (Fx) Tools
 
@@ -49,11 +49,11 @@ Dynamic Language Runtime (DLR)
 
 C#, VB.NET, F#, C++/CLI.... | CLR Languages
 
-Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading, IO, Net, Text, Drawing, Security, Diagnostics, Reflection, LINQ, Task Parallel Library (TPL)...
+Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading, IO, Net, Text, Drawing, Security, Diagnostics, Reflection, LINQ, InterOp, Task Parallel Library (TPL)...
 
 Common Type System (CTS) / Common Language Specification (CLS) / Common Intermediate Language (CIL)
 
-.NET Framework, .NET Core, Mono, .NET Microsoft Framework (MF), .NET Compact Framework (CF)
+.NET Framework, .NET Core, Mono, DNX (.NET Execution Environment), .NET Microsoft Framework (MF), .NET Compact Framework (CF)
 
 Common Language Runtime (CLR) : Just-In-Time (JIT), Garbage Collector (GC), Security...
 
