@@ -6,7 +6,7 @@
 # What and why?
 Have you ever wondered:
 * what technologies .NET really includes? 
-* how many do I posses?
+* how many do I possess?
 
 
 I could not find a really comprehensive diagram that shows the .NET technology stack, so I come up with my own version.
