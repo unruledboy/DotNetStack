@@ -1,7 +1,7 @@
 # DotNetStack
 .NET technology stack, including frameworks, SDKs, tools etc
 
-![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.7/Net%20Stack%20v1.7.png)
+![Image of The Dot NET Stack](https://raw.githubusercontent.com/unruledboy/DotNetStack/master/v1.8/Net%20Stack%20v1.8.png)
 
 # What and why?
 Have you ever wondered:
@@ -20,13 +20,13 @@ IoC (Autofac,Unity,NInject,Winsor),Messaging/Queue (NServieBus,RabbitMQ,MassTran
 
 ADO.NET (SQL Server, Oracle, MySQL,Sqlite...), O/RM (Entity Framework, NHinbernate,AutoMapper...), NoSQL (RavenDB, Azure Document DB...), Cache (NCache...)|Data
 
-Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time), sn, gacutil (GAC) | Framework (Fx) Tools
+Ildasm (MSIL Disassembler), NGen (Native Generation, Ahead-Of-Time), sn, gacutil (GAC)£¬ FxCop | Framework (Fx) Tools
 
 ClickOnce, Web/FTP, Cloud, File|Deploy/Publish
 
-MSUnit, NUnit, Mock (Moq...), Fakes|Testing
+MSTest, NUnit, Mock (Moq...), Fakes, Microsoft Test Manager|Testing
 
-MSBuild, CodeDom, Roslyn,CruiseControl.NET|Build
+MSBuild, CodeDom, Roslyn,CruiseControl.NET csc/vbc/fsc|Build
 
 Team Foundation Server (TFS), NuGet, Chocolatey, PowerShell | Productivity
 
@@ -40,17 +40,19 @@ SignalR, Nancy, Katana  | Open Web Interface for .NET (OWIN)
 
 ASP.NET Web API, ASP.NET Web Services, Windows Communication Foundation(WCF), .NET Remoting | SOA
 
-ASP.NET Runtime, ASP.NET Web Pages, ASP.NET Web Forms (with Ajax Control Toolkit...), ASP.NET MVC (with Razor, routing...), Silverlight, SharePoint | Web
+ASP.NET Runtime, ASP.NET Web Pages, ASP.NET Web Forms (with Ajax Control Toolkit...), ASP.NET MVC (with Razor, routing...), Silverlight, SharePoint, IIS | Web
 
 Windows Forms, Windows Presentation Foundation(WPF, with XAML), Console, Windows Service | Desktop
 
-IronPython, IronRuby, IronScheme, IronLisp... | DLR Languages 
+IronPython, IronRuby, IronScheme, IronLisp... | DLR Languages
 
-Dynamic Language Runtime (DLR) 
+Dynamic Language Runtime (DLR)
 
 C#, VB.NET, F#, C++/CLI, ClojureCLR, Fantom.... | CLI Languages
 
-Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading, IO, Net, Text, Drawing, Security, Diagnostics, Reflection, LINQ, InterOp, Task Parallel Library (TPL)...
+Assembly, Code Access Security(CAS),  Generics, Language independence, Interoperability,  Portability  | Core Concepts / Features
+ 
+Base Class Library (BCL), Framework Class Library (FCL): ADO.NET, XML, Threading, IO, Net, Text, Drawing, Security, Diagnostics, Reflection, LINQ, InterOp, Task Parallel Library (TPL), ...
 
 .NET Framework, .NET Core, Mono, DNX (.NET Execution Environment), .NET Micro Framework (MF), .NET Compact Framework (CF)
 
