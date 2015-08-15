@@ -1,0 +1,679 @@
+﻿{
+  "name": "Database",
+  "children": [
+    {
+      "name": "RDBMS",
+      "children": [
+        {
+          "name": "MS SQL Server",
+          "children": [
+            {
+              "name": "SQL OS",
+              "children": [
+                { "name": "Memory Management" },
+                { "name": "Buffer Pool" },
+                { "name": "Deadlock detection" },
+                { "name": "Exception handling" },
+                { "name": "Schedulers" },
+                { "name": "InterOp" }
+              ]
+            },
+            {
+              "name": "Storage Engine",
+              "children": [
+                { "name": "Transaction Services" },
+                { "name": "File Manager" },
+                { "name": "Data File" },
+                { "name": "Extents" },
+                { "name": "Pages" },
+                {
+                  "name": "Log File",
+                  "children": [
+                    { "name": "Write Ahead Log (WAL)" },
+                    {
+                      "name": "Recovery",
+                      "children": [
+                        { "name": "Full" },
+                        { "name": "Bulk-logged" }
+                      ]
+                    },
+                    { "name": "Dirty Pages" },
+                    { "name": "Lazy Writer" },
+                    { "name": "Checkpoint" },
+                    { "name": "Log Sequence Number (LSN)" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Relational Engine",
+              "children": [
+                {
+                  "name": "Query Processing",
+                  "children": [
+                    { "name": "Parser" },
+                    { "name": "Optimizer" },
+                    { "name": "SQL Manager" },
+                    { "name": "Database Manager" },
+                    { "name": "Query Executor" }
+                  ]
+                },
+                { "name": "Memory Management" },
+                { "name": "Thread and Task Management" },
+                { "name": "Buffer Management" },
+                { "name": "Distributed Query Processing" }
+              ]
+            },
+            {
+              "name": "Communication",
+              "children": [
+                { "name": "SQL Server Network Interface (SNI)" },
+                { "name": "Tabular Data Stream (TDS)" },
+                {
+                  "name": "Protocols",
+                  "children": [
+                    { "name": "TCP/IP" },
+                    { "name": "Named pipes" },
+                    { "name": "Shared memory" },
+                    { "name": "Virtual Interface Adapter (VIA)" },
+                    { "name": "Web Services" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Core Concepts",
+              "children": [
+                {
+                  "name": "Instance",
+                  "children": [
+                    { "name": "Default" },
+                    { "name": "Named" },
+                    { "name": "Alias" }
+                  ]
+                },
+                {
+                  "name": "Port",
+                  "children": [
+                    { "name": "Default: 1433" },
+                    { "name": "Dynamic" }
+                  ]
+                },
+                {
+                  "name": "Transaction",
+                  "children": [
+                    {
+                      "name": "ACID",
+                      "children": [
+                        { "name": "Atomicity" },
+                        { "name": "Consistency" },
+                        { "name": "Isolation" },
+                        { "name": "Durability" }
+                      ]
+                    },
+                    {
+                      "name": "Types",
+                      "children": [
+                        {
+                          "name": "Implicit",
+                          "children": [
+                            { "name": "single UPDATE/DELETE" }
+                          ]
+                        },
+                        {
+                          "name": "Explicit",
+                          "children": [
+                            { "name": "BEGIN/COMMIT/ROLLBACK" }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Checkpoint" },
+                    {
+                      "name": "Isolation Levels",
+                      "children": [
+                        { "name": "Read uncommitted" },
+                        { "name": "Read committed" },
+                        { "name": "Repeatable read" },
+                        { "name": "Snapshot" },
+                        { "name": "Serializable" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Concurrency",
+                  "children": [
+                    {
+                      "name": "Lock",
+                      "children": [
+                        { "name": "Optimistic" },
+                        { "name": "Pessimistic" },
+                        { "name": "Exclusive" },
+                        { "name": "Shared" }
+                      ]
+                    },
+                    { "name": "Wait" },
+                    { "name": "Latch" },
+                    {
+                      "name": "Deadlock",
+                      "children": [
+                        { "name": "Kill" }
+                      ]
+                    },
+                    { "name": "sync/async" },
+                    { "name": "Blocking" },
+                    { "name": "Row versioning" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Core Objects",
+              "children": [
+                {
+                  "name": "Database",
+                  "children": [
+                    {
+                      "name": "Recovery Models",
+                      "children": [
+                        { "name": "Simple" },
+                        { "name": "Full" },
+                        { "name": "Bulk logged" }
+                      ]
+                    },
+                    {
+                      "name": "Compatibility Levels",
+                      "children": [
+                        { "name": "130: SQL  Server 2016" },
+                        { "name": "120: SQL  Server 2014" },
+                        { "name": "110: SQL  Server 2012" },
+                        { "name": "100: SQL  Server 2008" },
+                        { "name": "90: SQL  Server 2005" },
+                        { "name": "80: SQL Server 2000" }
+                      ]
+                    },
+                    { "name": "Encryption" },
+                    { "name": "Copy" }
+                  ]
+                },
+                {
+                  "name": "Table",
+                  "children": [
+                    {
+                      "name": "Standard",
+                      "children": [
+                        { "name": "Partition" },
+                        { "name": "Compression" }
+                      ]
+                    },
+                    { "name": "Table Variable" },
+                    {
+                      "name": "Temp Table",
+                      "children": [
+                        { "name": "Local" },
+                        { "name": "Global" }
+                      ]
+                    },
+                    { "name": "FileTable" }
+                  ]
+                },
+                {
+                  "name": "View",
+                  "children": [
+                    { "name": "Standard" },
+                    { "name": "Indexed" },
+                    { "name": "Partitioned" }
+                  ]
+                },
+                { "name": "Stored Procedure (SP)" },
+                {
+                  "name": "Function (FN)",
+                  "children": [
+                    { "name": "Table-valued Function" },
+                    { "name": "Scalar-valued Function" }
+                  ]
+                },
+                {
+                  "name": "Data Type",
+                  "children": [
+                    {
+                      "name": "Types",
+                      "children": [
+                        { "name": "System Type" },
+                        { "name": "User-defined Type (UDT)" }
+                      ]
+                    },
+                    { "name": "Conversion" },
+                    { "name": "Precedence" },
+                    { "name": "Synonym" },
+                    { "name": "Precision/Scale/Length" },
+                    { "name": "XML" },
+                    { "name": "JSON" },
+                    { "name": "Spatial (CLR)" }
+                  ]
+                },
+                {
+                  "name": "Index",
+                  "children": [
+                    {
+                      "name": "Index Types",
+                      "children": [
+                        { "name": "Clustered Index" },
+                        { "name": "Non-clustered Index" }
+                      ]
+                    },
+                    {
+                      "name": "Index Setting",
+                      "children": [
+                        { "name": "Include" },
+                        { "name": "Filter" }
+                      ]
+                    },
+                    {
+                      "name": "Index Management",
+                      "children": [
+                        { "name": "Rebuild" },
+                        { "name": "Reorganise" },
+                        { "name": "Disable" },
+                        { "name": "Enable" },
+                        { "name": "Drop" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Column",
+                  "children": [
+                    { "name": "columnstore" },
+                    { "name": "NTFS FileStream" }
+                  ]
+                },
+                { "name": "Schema" },
+                {
+                  "name": "Trigger",
+                  "children": [
+                    {
+                      "name": "Table Trigger",
+                      "children": [
+                        { "name": "BEFORE" },
+                        { "name": "FOR/AFTER" },
+                        { "name": "INSTEAD OF" }
+                      ]
+                    }
+                  ]
+                },
+                { "name": "Constraint" },
+                { "name": "Key" },
+                { "name": "Default" },
+                { "name": "Synonym" },
+                { "name": "Cursor" },
+                { "name": "Collation" },
+                { "name": "Login" },
+                { "name": "User" },
+                { "name": "Rule" },
+                { "name": "Server role" },
+                { "name": "Endpoint" },
+                {
+                  "name": "Job",
+                  "children": [
+                    { "name": "Job Agent" },
+                    { "name": "Job Activity Monitor" },
+                    { "name": "Alert" },
+                    { "name": "Operator" },
+                    {
+                      "name": "SQL Job",
+                      "children": [
+                        { "name": "Step" },
+                        { "name": "Schedule" },
+                        { "name": "Notification" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "SQL CLR (.NET CLR)",
+                  "children": [
+                    { "name": "Assembly" },
+                    {
+                      "name": "Managed Code Types",
+                      "children": [
+                        { "name": "Function" },
+                        { "name": "Stored Procedure" },
+                        { "name": "Trigger" },
+                        { "name": "UDF" },
+                        { "name": "UDA" },
+                        { "name": "UDT" }
+                      ]
+                    },
+                    { "name": "Security Levels" }
+                  ]
+                },
+                { "name": "Linked Server" },
+                { "name": "Service Broker" }
+              ]
+            },
+            {
+              "name": "Standard",
+              "children": [
+                {
+                  "name": "ANSI 92"
+                }
+              ]
+            },
+            {
+              "name": "Languages",
+              "children": [
+                {
+                  "name": "Query Language",
+                  "children": [
+                    { "name": "T-SQL (Transact-SQL)" },
+                    { "name": "MDX (MultiDimensional eXpressions)" }
+                  ]
+                },
+                {
+                  "name": "Data Manipulation Language (DML)",
+                  "children": [
+                    {
+                      "name": "CRUD",
+                      "children": [
+                        { "name": "Create(INSERT)" },
+                        { "name": "Retrieve(SELECT)" },
+                        { "name": "Update" },
+                        { "name": "Delete" }
+                      ]
+                    },
+                    { "name": "MERGE" },
+                    {
+                      "name": "TEXT",
+                      "children": [
+                        { "name": "UPDATETEXT" },
+                        { "name": "WRITETEXT" },
+                        { "name": "READTEXT" }
+                      ]
+                    },
+                    { "name": "BULK INSERT" },
+                    { "name": "EXECUTE" }
+                  ]
+                },
+                {
+                  "name": "Data Definition Language (DDL)",
+                  "children": [
+                    { "name": "CREATE" },
+                    { "name": "ALTER" },
+                    { "name": "DROP" },
+                    { "name": "TRUNCATE" },
+                    { "name": "RESTORE" },
+                    { "name": "RECONFIGURE" }
+                  ]
+                },
+                {
+                  "name": "Data Control Language (DCL)",
+                  "children": [
+                    { "name": "GRANT" },
+                    { "name": "REVOKE" }
+                  ]
+                },
+                {
+                  "name": "Transaction Control Language (TCL)",
+                  "children": [
+                    { "name": "BEGIN TRANSACTION" },
+                    { "name": "COMMIT" },
+                    { "name": "ROLLBACK" },
+                    { "name": "SAVE TRANSACTION" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "System Databases",
+              "children": [
+                { "name": "master (dbs, login, configs)" },
+                { "name": "tempdb (temp tables / sps)" },
+                { "name": "msdb (jobs/alerts/backups)" },
+                { "name": "model (template for new db)" },
+                { "name": "resource (invisible, system objects)" }
+              ]
+            },
+            {
+              "name": "File",
+              "children": [
+                { "name": "primary (MDF)" },
+                { "name": "secondary (NDF)" },
+                { "name": "log (LDF)" },
+                { "name": "File/Filegroup" },
+                { "name": "Auto Grow" }
+              ]
+            },
+            {
+              "name": "Runtime",
+              "children": [
+                { "name": "Process" },
+                { "name": "Worker" },
+                { "name": "Connection" },
+                { "name": "Request" },
+                { "name": "Stall" },
+                { "name": "Stats" },
+                {
+                  "name": "Cache",
+                  "children": [
+                    { "name": "aging" }
+                  ]
+                },
+                { "name": "Catalog Views" },
+                {
+                  "name": "Dynamic Management Views (DMV)",
+                  "children": [
+                    { "name": "Execution count" },
+                    { "name": "Execution io/cpu/perf" }
+                  ]
+                },
+                {
+                  "name": "Full Text Search (FTS)",
+                  "children": [
+                    { "name": "Integrated Full Text Search (iFTS)" }
+                  ]
+                },
+                { "name": "Trace flags" }
+              ]
+            },
+            {
+              "name": "Replication",
+              "children": [
+                { "name": "Log Shipping" },
+                {
+                  "name": "Publish/Subscribe",
+                  "children": [
+                    { "name": "Transactional" },
+                    { "name": "Merge" },
+                    { "name": "Snapshot" }
+                  ]
+                },
+                {
+                  "name": "Mirroring",
+                  "children": [
+                    {
+                      "name": "Core",
+                      "children": [
+                        { "name": "Principal" },
+                        { "name": "Witness" }
+                      ]
+                    },
+                    { "name": "Database Mirroring Monitor" }
+                  ]
+                },
+                { "name": "AlwaysOn" },
+                {
+                  "name": "Clustering",
+                  "children": [
+                    {
+                      "name": "Core",
+                      "children": [
+                        { "name": "Shared Disk Array" },
+                        { "name": "Quorum" }
+                      ]
+                    },
+                    {
+                      "name": "Failover",
+                      "children": [
+                        { "name": "Active/Active" },
+                        { "name": "Active/Passive" }
+                      ]
+                    }
+                  ]
+                },
+                { "name": "Snapshot" }
+              ]
+            },
+            {
+              "name": "Versions",
+              "children": [
+                { "name": "Express" },
+                { "name": "BI" },
+                { "name": "Web" },
+                { "name": "Standard" },
+                { "name": "Enterprise" },
+                { "name": "Datacenter" },
+                { "name": "Local DB" }
+              ]
+            },
+            {
+              "name": "Management",
+              "children": [
+                { "name": "SQL Server Management Studio (SSMS)" },
+                { "name": "SQL Server Command Line Util (sqlcmd)" },
+                { "name": "SQL Monitor ;-)" }
+              ]
+            },
+            {
+              "name": "Maintenance",
+              "children": [
+                { "name": "Maintenance Plan" },
+                { "name": "Logs" },
+                { "name": "Database Mail" },
+                {
+                  "name": "Database",
+                  "children": [
+                    {
+                      "name": "Backup/Restore",
+                      "children": [
+                        {
+                          "name": "Mode",
+                          "children": [
+                            { "name": "Full" },
+                            { "name": "Differential" },
+                            { "name": "Transaction log" }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Online/Offline" },
+                    { "name": "Attach/Dettach" }
+                  ]
+                },
+                { "name": "Import/Export" },
+                { "name": "Shrink" },
+                { "name": "DBCC" },
+                { "name": "Bulk Copy (bcp command line)" },
+                { "name": "Resource governor" },
+                { "name": "Facets" }
+              ]
+            },
+            {
+              "name": "Business Intelligence (BI)",
+              "children": [
+                { "name": "SQL Server Integration Service (SSIS)" },
+                { "name": "SQL Server Reporting Service (SSRS)" },
+                { "name": "SQL Server Analysis Service (SSAS)" }
+              ]
+            },
+            {
+              "name": "Troubleshoot",
+              "children": [
+                {
+                  "name": "Dedicated Administrator Connection (DAC)",
+                  "children": [
+                    { "name": "ADMIN:INSTANCE" },
+                    { "name": "SQL Browser service must be running" }
+                  ]
+                },
+                { "name": "SQL Server Profiler" },
+                { "name": "Activity Monitor" },
+                {
+                  "name": "Error",
+                  "children": [
+                    { "name": "Severity Levels" },
+                    { "name": "Error Log" },
+                    { "name": "sys.xp_readerrorlog" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Performance",
+              "children": [
+                { "name": "Seek" },
+                { "name": "Scan" },
+                { "name": "Fragmentation" },
+                { "name": "Partitioning" },
+                { "name": "Database Engine Tuning Advisor" }
+              ]
+            },
+            {
+              "name": "Services",
+              "children": [
+                { "name": "SQL Server" },
+                { "name": "SQL Server Browser" },
+                { "name": "SQL Server Agent" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oracle"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "Informix"
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "children": [
+        {
+          "name": "Azure",
+          "children": [
+            { "name": "Database" },
+            { "name": "Redis Cache" },
+            {
+              "name": "Storage",
+              "children": [
+                { "name": "Blobs" },
+                { "name": "Tables" },
+                { "name": "Queues" },
+                { "name": "StorSimple" },
+                { "name": "Files and Disks" }
+              ]
+            },
+            { "name": "StorSimple" },
+            { "name": "SQL Data Warehouse" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NoSQL",
+      "children": [
+        {
+          "name": "Azure Document DB"
+        }
+      ]
+    }
+  ]
+}
