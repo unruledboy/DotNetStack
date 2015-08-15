@@ -1,6 +1,6 @@
 # Localization
-	中文: 
-	http://www.cnblogs.com/unruledboy/p/NetStack.html
+中文: 
+http://www.cnblogs.com/unruledboy/p/NetStack.html
 
 
 # DotNetStack
