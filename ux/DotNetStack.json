@@ -37,7 +37,7 @@
         { "name": "Security" }
       ]
     },
-    { "name": "Common Language Runtime (CLR)" },
+    { "name": "Common Type System (CTS)" },
     { "name": "Common Language Specification (CLS)" },
     { "name": "Common Intermediate Language (CIL)" },
     {

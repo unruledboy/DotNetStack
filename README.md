@@ -26,6 +26,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 
 # The .NET Stack
 
+<!--BUILD_START-->
 
 - .NET
 	- Common Language Infrastructure (CLI)
@@ -49,23 +50,22 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 	- Common Intermediate Language (CIL)
 	- .NET Frameworks
 		- .NET Framework
-			- Versions
-				- 1.0
-				- 2.0
-					- Generics
-				- 3.0
-					- WPF
-					- WCF
-					- WF
-				- 3.5
-					- LINQ
-				- 4.0
-					- PLINQ
-					- TPL
-				- 4.5
-					- Modern UI
-					- async/await
-				- 4.6
+			- 1.0
+			- 2.0
+				- Generics
+			- 3.0
+				- WPF
+				- WCF
+				- WF
+			- 3.5
+				- LINQ
+			- 4.0
+				- PLINQ
+				- TPL
+			- 4.5
+				- Modern UI
+				- async/await
+			- 4.6
 		- .NET Core
 		- Mono
 		- DNX (.NET Execution Environment)
@@ -145,7 +145,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 		- Windows Service
 	- Web
 		- ASP.NET
-			- ASP.NET  Runtime
+			- ASP.NET Runtime
 			- ASP.NET Web Pages
 			- ASP.NET Web Forms
 				- Ajax Control Toolkit
@@ -241,3 +241,5 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 			- MassTransit
 		- Schedule
 			- Quartz.NET
+
+<!--BUILD_END-->

@@ -1,0 +1,32 @@
+{
+  "name": "DotNetStack",
+  "version": "2.0.0",
+  "description": "Generate a image for DotNet stack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index phantomjs readme", 
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unruledboy/DotNetStack.git"
+  },
+  "keywords": [
+    "DotNet",
+	".NET",
+    "Stack"
+  ],
+  "author": [
+    "unruledboy <unruledboy@gmail.com>"
+  ],
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/unruledboy/DotNetStack/issues"
+  },
+  "homepage": "https://github.com/unruledboy/DotNetStack",
+  "dependencies": {
+	"bluebird": "^2.9.34",
+    "express": "^4.13.3",
+    "phantom": "^0.7.2"
+  }
+}
