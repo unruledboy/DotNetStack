@@ -193,7 +193,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 	- Build
 		- MSBuild
 		- CodeDom
-		- Rosly
+		- Roslyn
 		- CruiseControl.NET
 		- csc/vbc/fsc
 	- Testing
