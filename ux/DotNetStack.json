@@ -387,7 +387,25 @@
           ]
         },
         {
-          "name": "ASP.NET Web Services"
+          "name": "ASP.NET Web Services",
+          "children": [
+            {
+              "name": "Core Objects",
+              "children": [
+                { "name": "WebService" },
+                { "name": "WebMethod" }
+              ]
+            },
+            {
+              "name": "File Types",
+              "children": [
+                { "name": "XML (Extensible Markup Language)" },
+                { "name": "SOAP (Simple Object Access Protocol)" },
+                { "name": "WSDL (Web Services Description Language)" },
+                { "name": "UDDI (Universal Description, Discovery, and Integration)" }
+              ]
+            }
+          ]
         },
         {
           "name": "Windows Communication Foundation(WCF)",

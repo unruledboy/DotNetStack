@@ -1,3 +1,7 @@
+/**
+ * Builder
+ * @author zsx<zsx@zsxsoft.com>
+ */
 var express = require('express');
 var path = require('path');
 var Promise = require("bluebird");
@@ -8,34 +12,34 @@ var queueReady = ["server"];
 var port = process.env.PORT || 3000;
 var httpServer = "http://127.0.0.1:" + port + "/";
 
-var pageWidth = 2400; // Magic number!
+var pageWidth = 2800; // Magic number!
 var pageHeight = 4000;
 
 String.prototype.repeat = function(count) {
-        var ret = [];
-        while (count--) {
-            ret.push(this);
-        }
-        return ret.join("");
+    return new Array(count + 1).join(this);
+}
+/**
+ * Use to build a promise for some fucking async api.
+ * @param  object object       
+ **/
+var promisify = function promisify(object) {
+    for (var key in object) {
+        (function(key, asyncKey) {
+            object[asyncKey] = function() {
+                var resolver = Promise.defer();
+                var len = arguments.length;
+                var argu = new Array(len + 1);
+                for (var i = 0; i < len; i++) { // I think a Array.from is more convenient.
+                    argu[i] = arguments[i];
+                }
+                argu[len] = function() {
+                    resolver.resolve.apply(resolver, arguments); // Callback arguments
+                };
+                object[key].apply(object, argu);
+                return resolver.promise;
+            }
+        })(key, key + "Async");
     }
-    /**
-     * Use to build a promise for some fucking async api.
-     * @param  object object       
-     * @param  string method       
-     * @param  array otherArguments
-     * @return Promise<any>
-     */
-var promiseFactory = function promiseFactory(object, otherArguments) {
-    var resolver = Promise.defer();
-    var argu = otherArguments;
-    if (!(argu instanceof Array)) {
-        argu = [];
-    }
-    argu.push(function() {
-        resolver.resolve.apply(resolver, arguments);
-    });
-    object.apply(object, argu);
-    return resolver.promise;
 }
 
 /**
@@ -47,7 +51,11 @@ var promiseFactory = function promiseFactory(object, otherArguments) {
 var buildReadme = function buildReadme(object, deep) {
     var deeper = deep + 1;
     var deepString = "\t".repeat(deep) + "- ";
-    var ret = [deepString + object.name];
+    var ret = [];
+    ret.push((function(deepString, name, url) {
+        var haveUrl = !!url;
+        return deepString + (haveUrl ? "[" : "") + object.name + (haveUrl ? "](" + url + ")" : "");
+    })(deepString, object.name, object.url));
     if (object.children) {
         object.children.map(function(value, index) {
             ret.push(buildReadme(value, deeper));
@@ -67,30 +75,33 @@ var actions = {
 
             var ph;
             var page;
+            promisify(phantom);
 
-            // What the fucking API?
-            return promiseFactory(phantom.create).then(function(phantom) {
+                // What the fucking API
+            return phantom.createAsync().then(function(phantom) {
                 ph = phantom;
+                promisify(ph);
                 console.log("Created Phantomjs");
-                return promiseFactory(ph.createPage);
+                return ph.createPageAsync();
             }).then(function(pg) {
                 page = pg;
-                return promiseFactory(page.set, ['viewportSize', {
+                promisify(pg);
+                return page.setAsync('viewportSize', {
                     width: pageWidth,
                     height: pageHeight
-                }]);
-            }).then(function(err) {
+                });
+            }).then(function() {
                 console.log("Set viewportSize");
-                return promiseFactory(page.open, [httpServer]);
+                return page.openAsync(httpServer);
             }).then(function(status) {
-                console.log("Rendered HTML, the image will save after 2 seconds.");
+                console.log("Rendered HTML, the image will be saved after 2 seconds.");
                 if (status == "success") {
                     return Promise.delay(2000);
                 } else {
                     return reject(status);
                 }
             }).then(function() {
-                return promiseFactory(page.render, [path.join(__dirname, 'preview.png')]);
+                return page.renderAsync(path.join(__dirname, 'preview.png'));
             }).then(function() {
                 console.log("The image saved successfully!");
                 return resolve();

@@ -201,6 +201,14 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- HTTP Message Handler
 				- Filter
 		- ASP.NET Web Services
+			- Core Objects
+				- WebService
+				- WebMethod
+			- File Types
+				- XML (Extensible Markup Language)
+				- SOAP (Simple Object Access Protocol)
+				- WSDL (Web Services Description Language)
+				- UDDI (Universal Description, Discovery, and Integration)
 		- Windows Communication Foundation(WCF)
 			- ABC
 				- Address

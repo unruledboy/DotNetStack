@@ -20,7 +20,7 @@
     "unruledboy <unruledboy@gmail.com>",
     "zsx <zsx@zsxsoft.com>"
   ],
-  "license": "Apache",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/unruledboy/DotNetStack/issues"
   },
