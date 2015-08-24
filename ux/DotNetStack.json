@@ -222,7 +222,8 @@
         { "name": "F#" },
         { "name": "C++/CLI" },
         { "name": "ClojureCLR" },
-        { "name": "Fantom" }
+        { "name": "Fantom" },
+        { "name": "Visual COBOL" }
       ]
     },
     {

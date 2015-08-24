@@ -133,6 +133,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 		- C++/CLI
 		- ClojureCLR
 		- Fantom
+		- Visual COBOL
 	- Dynamic Language Runtime (DLR)
 		- DLR Languages
 			- IronPython
