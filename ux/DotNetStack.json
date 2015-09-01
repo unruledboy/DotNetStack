@@ -668,7 +668,7 @@
           "name": "Object/Relationship Mapping (O/RM)",
           "children": [
             {
-              "name": "Entity Framework"
+              "name": "Entity Framework (EF)"
             },
             {
               "name": "NHinbernate"

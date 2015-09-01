@@ -301,7 +301,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 			- MySQL
 			- Sqlite
 		- Object/Relationship Mapping (O/RM)
-			- Entity Framework
+			- Entity Framework (EF)
 			- NHinbernate
 			- AutoMapper
 		- NoSQL
