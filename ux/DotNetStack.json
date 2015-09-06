@@ -1,5 +1,6 @@
 ﻿{
   "name": ".NET",
+  "url": "http://www.microsoft.com/net",
   "children": [
     { "name": "Common Language Infrastructure (CLI)" },
     {
@@ -216,14 +217,33 @@
       "name": "CLI Languages",
       "children": [
         {
-          "name": "C#"
+          "name": "C#",
+          "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
         },
-        { "name": "VB.NET" },
-        { "name": "F#" },
-        { "name": "C++/CLI" },
-        { "name": "ClojureCLR" },
-        { "name": "Fantom" },
-        { "name": "Visual COBOL" }
+        {
+          "name": "VB.NET",
+          "url": "https://msdn.microsoft.com/en-us/library/2x7h1hfk.aspx"
+        },
+        {
+          "name": "F#",
+          "url": "http://fsharp.org/"
+        },
+        {
+          "name": "C++/CLI",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B/CLI"
+        },
+        {
+          "name": "ClojureCLR",
+          "url": "https://github.com/clojure/clojure-clr"
+        },
+        {
+          "name": "Fantom",
+          "url": "http://fantom.org/"
+        },
+        {
+          "name": "Visual COBOL",
+          "url": "http://www.microfocus.com/products/micro-focus-developer/visual_cobol/"
+        }
       ]
     },
     {
@@ -409,7 +429,7 @@
           ]
         },
         {
-          "name": "Windows Communication Foundation(WCF)",
+          "name": "Windows Communication Foundation (WCF)",
           "children": [
             {
               "name": "ABC",
@@ -450,6 +470,7 @@
     },
     {
       "name": "Open Web Interface for .NET (OWIN)",
+      "url": "http://owin.org/",
       "children": [
         {
           "name": "SignalR"
@@ -466,16 +487,19 @@
       "name": "SDKs",
       "children": [
         {
-          "name": "Windows Workflow Foundation (WWF)"
+          "name": "Windows Workflow Foundation (WWF)",
+          "url": "https://msdn.microsoft.com/en-us/vstudio/jj684582.aspx"
         },
         {
-          "name": "Managed Extensibility Framework (MEF)"
+          "name": "Managed Extensibility Framework (MEF)",
+          "url": "https://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx"
         },
         {
-          "name": "Reactive Extensions (Rx)"
+          "name": "Reactive Extensions (Rx)",
+          "url": "https://github.com/Reactive-Extensions"
         },
         {
-          "name": "Enterprise Library"
+          "name": "Enterprise Library ;-)"
         }
       ]
     },
@@ -483,25 +507,32 @@
       "name": "Development",
       "children": [
         {
-          "name": "Visual Studio"
+          "name": "Visual Studio",
+          "url": "https://www.visualstudio.com/"
         },
         {
-          "name": "Visual Studio Online"
+          "name": "Visual Studio Online",
+          "url": "https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx"
         },
         {
-          "name": "Visual Studio Code"
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/"
         },
         {
-          "name": "Blend"
+          "name": "Blend",
+          "url": "https://msdn.microsoft.com/en-us/library/jj171012.aspx"
         },
         {
-          "name": "LightSwitch"
+          "name": "LightSwitch",
+          "url": "https://msdn.microsoft.com/en-us/library/lightswitch.aspx"
         },
         {
-          "name": "MonoDevelop"
+          "name": "MonoDevelop",
+          "url": "http://www.monodevelop.com/"
         },
         {
-          "name": "SharpDevelop"
+          "name": "SharpDevelop",
+          "url": "http://www.icsharpcode.net/OpenSource/SD/Default.aspx"
         }
       ]
     },
@@ -509,13 +540,16 @@
       "name": "Platforms",
       "children": [
         {
-          "name": "Windows Runtime (WinRT)"
+          "name": "Windows Runtime (WinRT)",
+          "url": "https://en.wikipedia.org/wiki/Windows_Runtime"
         },
         {
-          "name": "Xamarin"
+          "name": "Xamarin",
+          "url": "http://xamarin.com/"
         },
         {
           "name": "Universal Apps",
+          "url": "https://dev.windows.com/en-us/develop/build-apps-shared-code",
           "children": [
             {
               "name": "WinJS"
@@ -523,13 +557,15 @@
           ]
         },
         {
-          "name": ".NET Native"
+          "name": ".NET Native",
+          "url": "https://msdn.microsoft.com/en-us/vstudio/dotnetnative.aspx"
         },
         {
           "name": "Windows Phone SDK"
         },
         {
-          "name": "Azure"
+          "name": "Azure",
+          "url": "https://azure.microsoft.com"
         }
       ]
     },
@@ -538,19 +574,23 @@
       "children": [
         {
           "name": "Team Foundation Server (TFS)",
+          "url": "https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx",
           "children": [
             { "name": "Product Backlog Item" },
             { "name": "Task" }
           ]
         },
         {
-          "name": "NuGet"
+          "name": "NuGet",
+          "url": "https://www.nuget.org/"
         },
         {
-          "name": "Chocolatey"
+          "name": "Chocolatey",
+          "url": "https://chocolatey.org/"
         },
         {
-          "name": "PowerShell"
+          "name": "PowerShell",
+          "url": "https://en.wikipedia.org/wiki/Windows_PowerShell"
         }
       ]
     },
@@ -564,10 +604,12 @@
           "name": "CodeDom"
         },
         {
-          "name": "Roslyn"
+          "name": "Roslyn",
+          "url": "https://github.com/dotnet/roslyn"
         },
         {
-          "name": "CruiseControl.NET"
+          "name": "CruiseControl.NET",
+          "url": "http://cruisecontrol.net/"
         },
         {
           "name": "csc/vbc/fsc"
@@ -586,6 +628,7 @@
         },
         {
           "name": "NUnit",
+          "url": "http://www.nunit.org/",
           "children": [
             { "name": "TestFixture" },
             { "name": "Test" }
@@ -595,7 +638,8 @@
           "name": "Mock",
           "children": [
             {
-              "name": "Moq"
+              "name": "Moq",
+              "url": "https://github.com/Moq/"
             }
           ]
         },
@@ -640,41 +684,32 @@
           "name": "gacutil"
         },
         {
-          "name": "FxCop"
+          "name": "FxCop",
+          "url": "https://en.wikipedia.org/wiki/FxCop"
         }
       ]
     },
     {
       "name": "Data",
+      "url": "https://github.com/unruledboy/DatabaseStack",
       "children": [
         {
-          "name": "ADO.NET",
-          "children": [
-            {
-              "name": "SQL Server"
-            },
-            {
-              "name": "Oracle"
-            },
-            {
-              "name": "MySQL"
-            },
-            {
-              "name": "Sqlite"
-            }
-          ]
+          "name": "ADO.NET"          
         },
         {
           "name": "Object/Relationship Mapping (O/RM)",
           "children": [
             {
-              "name": "Entity Framework (EF)"
+              "name": "Entity Framework (EF)",
+              "url": "https://github.com/aspnet/EntityFramework"
             },
             {
-              "name": "NHinbernate"
+              "name": "NHinbernate",
+              "url": "http://nhibernate.info/"
             },
             {
-              "name": "AutoMapper"
+              "name": "AutoMapper",
+              "url": "http://automapper.org/"
             }
           ]
         },
@@ -682,10 +717,12 @@
           "name": "NoSQL",
           "children": [
             {
-              "name": "RavenDB"
+              "name": "RavenDB",
+              "url": "http://ravendb.net/"
             },
             {
-              "name": "Azure Document DB"
+              "name": "Azure Document DB",
+              "url": "http://azure.microsoft.com/en-us/services/documentdb/"
             }
           ]
         },
@@ -693,7 +730,8 @@
           "name": "Cache",
           "children": [
             {
-              "name": "NCache"
+              "name": "NCache",
+              "url": "http://www.alachisoft.com/ncache/"
             }
           ]
         }
@@ -706,16 +744,20 @@
           "name": "IoC",
           "children": [
             {
-              "name": "Autofac"
+              "name": "Autofac",
+              "url": "http://autofac.org/"
             },
             {
-              "name": "Unity"
+              "name": "Unity",
+              "url": "https://github.com/unitycontainer/unity"
             },
             {
-              "name": "NInject"
+              "name": "NInject",
+              "url": "http://www.ninject.org/"
             },
             {
-              "name": "Windsor"
+              "name": "Windsor",
+              "url": "https://github.com/castleproject/Windsor/blob/master/docs/README.md"
             }
           ]
         },
@@ -723,13 +765,16 @@
           "name": "Messaging/Queue",
           "children": [
             {
-              "name": "NServieBus"
+              "name": "NServieBus",
+              "url": "http://particular.net/nservicebus"
             },
             {
-              "name": "RabbitMQ"
+              "name": "RabbitMQ",
+              "url": "https://www.rabbitmq.com/"
             },
             {
-              "name": "MassTransit"
+              "name": "MassTransit",
+              "url": "http://masstransit-project.com/"
             }
           ]
         },
@@ -737,7 +782,8 @@
           "name": "Schedule",
           "children": [
             {
-              "name": "Quartz.NET"
+              "name": "Quartz.NET",
+              "url": "http://www.quartz-scheduler.net/"
             }
           ]
         }

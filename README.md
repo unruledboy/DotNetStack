@@ -32,7 +32,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 
 <!--BUILD_START-->
 
-- .NET
+- [.NET](http://www.microsoft.com/net)
 	- Common Language Infrastructure (CLI)
 	- Common Language Runtime (CLR)
 		- Just-In-Time (JIT)
@@ -127,13 +127,13 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 			- Reference Types
 			- Values Types
 	- CLI Languages
-		- C#
-		- VB.NET
-		- F#
-		- C++/CLI
-		- ClojureCLR
-		- Fantom
-		- Visual COBOL
+		- [C#](https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx)
+		- [VB.NET](https://msdn.microsoft.com/en-us/library/2x7h1hfk.aspx)
+		- [F#](http://fsharp.org/)
+		- [C++/CLI](https://en.wikipedia.org/wiki/C%2B%2B/CLI)
+		- [ClojureCLR](https://github.com/clojure/clojure-clr)
+		- [Fantom](http://fantom.org/)
+		- [Visual COBOL](http://www.microfocus.com/products/micro-focus-developer/visual_cobol/)
 	- Dynamic Language Runtime (DLR)
 		- DLR Languages
 			- IronPython
@@ -214,7 +214,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- SOAP (Simple Object Access Protocol)
 				- WSDL (Web Services Description Language)
 				- UDDI (Universal Description, Discovery, and Integration)
-		- Windows Communication Foundation(WCF)
+		- Windows Communication Foundation (WCF)
 			- ABC
 				- Address
 				- Binding
@@ -234,53 +234,53 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- Operation Contract
 				- Message Contract
 		- .NET Remoting
-	- Open Web Interface for .NET (OWIN)
+	- [Open Web Interface for .NET (OWIN)](http://owin.org/)
 		- SignalR
 		- Nancy
 		- Katana
 	- SDKs
-		- Windows Workflow Foundation (WWF)
-		- Managed Extensibility Framework (MEF)
-		- Reactive Extensions (Rx)
-		- Enterprise Library
+		- [Windows Workflow Foundation (WWF)](https://msdn.microsoft.com/en-us/vstudio/jj684582.aspx)
+		- [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx)
+		- [Reactive Extensions (Rx)](https://github.com/Reactive-Extensions)
+		- Enterprise Library ;-)
 	- Development
-		- Visual Studio
-		- Visual Studio Online
-		- Visual Studio Code
-		- Blend
-		- LightSwitch
-		- MonoDevelop
-		- SharpDevelop
+		- [Visual Studio](https://www.visualstudio.com/)
+		- [Visual Studio Online](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx)
+		- [Visual Studio Code](https://code.visualstudio.com/)
+		- [Blend](https://msdn.microsoft.com/en-us/library/jj171012.aspx)
+		- [LightSwitch](https://msdn.microsoft.com/en-us/library/lightswitch.aspx)
+		- [MonoDevelop](http://www.monodevelop.com/)
+		- [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx)
 	- Platforms
-		- Windows Runtime (WinRT)
-		- Xamarin
-		- Universal Apps
+		- [Windows Runtime (WinRT)](https://en.wikipedia.org/wiki/Windows_Runtime)
+		- [Xamarin](http://xamarin.com/)
+		- [Universal Apps](https://dev.windows.com/en-us/develop/build-apps-shared-code)
 			- WinJS
-		- .NET Native
+		- [.NET Native](https://msdn.microsoft.com/en-us/vstudio/dotnetnative.aspx)
 		- Windows Phone SDK
-		- Azure
+		- [Azure](https://azure.microsoft.com)
 	- Productivity
-		- Team Foundation Server (TFS)
+		- [Team Foundation Server (TFS)](https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)
 			- Product Backlog Item
 			- Task
-		- NuGet
-		- Chocolatey
-		- PowerShell
+		- [NuGet](https://www.nuget.org/)
+		- [Chocolatey](https://chocolatey.org/)
+		- [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell)
 	- Build
 		- MSBuild
 		- CodeDom
-		- Roslyn
-		- CruiseControl.NET
+		- [Roslyn](https://github.com/dotnet/roslyn)
+		- [CruiseControl.NET](http://cruisecontrol.net/)
 		- csc/vbc/fsc
 	- Testing
 		- MSTest
 			- TestClass
 			- TestMethod
-		- NUnit
+		- [NUnit](http://www.nunit.org/)
 			- TestFixture
 			- Test
 		- Mock
-			- Moq
+			- [Moq](https://github.com/Moq/)
 		- Fakes
 		- Microsoft Test Manager
 	- Deploy/Publish
@@ -293,33 +293,29 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 		- NGen (Native Generation, Ahead-Of-Time)
 		- sn (Strong Name)
 		- gacutil
-		- FxCop
-	- Data
+		- [FxCop](https://en.wikipedia.org/wiki/FxCop)
+	- [Data](https://github.com/unruledboy/DatabaseStack)
 		- ADO.NET
-			- SQL Server
-			- Oracle
-			- MySQL
-			- Sqlite
 		- Object/Relationship Mapping (O/RM)
-			- Entity Framework (EF)
-			- NHinbernate
-			- AutoMapper
+			- [Entity Framework (EF)](https://github.com/aspnet/EntityFramework)
+			- [NHinbernate](http://nhibernate.info/)
+			- [AutoMapper](http://automapper.org/)
 		- NoSQL
-			- RavenDB
-			- Azure Document DB
+			- [RavenDB](http://ravendb.net/)
+			- [Azure Document DB](http://azure.microsoft.com/en-us/services/documentdb/)
 		- Cache
-			- NCache
+			- [NCache](http://www.alachisoft.com/ncache/)
 	- Components
 		- IoC
-			- Autofac
-			- Unity
-			- NInject
-			- Windsor
+			- [Autofac](http://autofac.org/)
+			- [Unity](https://github.com/unitycontainer/unity)
+			- [NInject](http://www.ninject.org/)
+			- [Windsor](https://github.com/castleproject/Windsor/blob/master/docs/README.md)
 		- Messaging/Queue
-			- NServieBus
-			- RabbitMQ
-			- MassTransit
+			- [NServieBus](http://particular.net/nservicebus)
+			- [RabbitMQ](https://www.rabbitmq.com/)
+			- [MassTransit](http://masstransit-project.com/)
 		- Schedule
-			- Quartz.NET
+			- [Quartz.NET](http://www.quartz-scheduler.net/)
 
 <!--BUILD_END-->
