@@ -233,6 +233,11 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- Service Contract
 				- Operation Contract
 				- Message Contract
+		- [AppFabric](https://en.wikipedia.org/wiki/AppFabric)
+			- Persistence
+			- Hosting
+			- Monitoring
+			- Caching
 		- .NET Remoting
 	- [Open Web Interface for .NET (OWIN)](http://owin.org/)
 		- SignalR

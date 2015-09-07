@@ -464,6 +464,24 @@
           ]
         },
         {
+          "name": "AppFabric",
+          "url": "https://en.wikipedia.org/wiki/AppFabric",
+          "children": [
+            {
+              "name": "Persistence"
+            },
+            {
+              "name": "Hosting"
+            },
+            {
+              "name": "Monitoring"
+            },
+            {
+              "name": "Caching"
+            }
+          ]
+        },
+        {
           "name": ".NET Remoting"
         }
       ]
