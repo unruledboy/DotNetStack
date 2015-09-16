@@ -292,7 +292,13 @@
         {
           "name": "ASP.NET",
           "children": [
-            { "name": "ASP.NET Runtime" },
+            {
+              "name": "ASP.NET Runtime",
+              "children": [
+                { "name": "HttpHandler" },
+                { "name": "HttpModule" }
+              ]
+            },
             { "name": "ASP.NET Web Pages" },
             {
               "name": "ASP.NET Web Forms",
@@ -712,7 +718,7 @@
       "url": "https://github.com/unruledboy/DatabaseStack",
       "children": [
         {
-          "name": "ADO.NET"          
+          "name": "ADO.NET"
         },
         {
           "name": "Object/Relationship Mapping (O/RM)",
@@ -793,6 +799,10 @@
             {
               "name": "MassTransit",
               "url": "http://masstransit-project.com/"
+            },
+            {
+              "name": "NetMQ",
+              "url": "https://github.com/zeromq/netmq"
             }
           ]
         },

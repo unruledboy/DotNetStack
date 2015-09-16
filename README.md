@@ -151,6 +151,8 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 	- Web
 		- ASP.NET
 			- ASP.NET Runtime
+				- HttpHandler
+				- HttpModule
 			- ASP.NET Web Pages
 			- ASP.NET Web Forms
 				- Core Objects / Concepts
@@ -320,6 +322,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 			- [NServieBus](http://particular.net/nservicebus)
 			- [RabbitMQ](https://www.rabbitmq.com/)
 			- [MassTransit](http://masstransit-project.com/)
+			- [NetMQ](https://github.com/zeromq/netmq)
 		- Schedule
 			- [Quartz.NET](http://www.quartz-scheduler.net/)
 
