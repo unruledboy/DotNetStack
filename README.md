@@ -42,7 +42,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- Gen 0
 				- Gen 1
 				- Gen 2
-		- Memeory Management
+		- Memory Management
 			- Stack
 			- Managed Heap
 				- Large Object Heap
@@ -183,9 +183,9 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 		- ASP.NET Web API
 			- REST (Representational State Transfer)
 			- CRUD
-				- GET: SELECT
-				- POST: CREATE
-				- PUT: UPDATE
+				- CREATE: POST
+				- RETRIEVE: GET
+				- UPDATE: PUT
 				- DELETE: DELETE
 			- Consumers
 				- HttpClient
@@ -319,7 +319,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 			- [NInject](http://www.ninject.org/)
 			- [Windsor](https://github.com/castleproject/Windsor/blob/master/docs/README.md)
 		- Messaging/Queue
-			- [NServieBus](http://particular.net/nservicebus)
+			- [NServiceBus](http://particular.net/nservicebus)
 			- [RabbitMQ](https://www.rabbitmq.com/)
 			- [MassTransit](http://masstransit-project.com/)
 			- [NetMQ](https://github.com/zeromq/netmq)

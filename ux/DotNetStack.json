@@ -22,7 +22,7 @@
           ]
         },
         {
-          "name": "Memeory Management",
+          "name": "Memory Management",
           "children": [
             { "name": "Stack" },
             {
@@ -369,9 +369,9 @@
             {
               "name": "CRUD",
               "children": [
-                { "name": "GET: SELECT" },
-                { "name": "POST: CREATE" },
-                { "name": "PUT: UPDATE" },
+                { "name": "CREATE: POST" },
+                { "name": "RETRIEVE: GET" },
+                { "name": "UPDATE: PUT" },
                 { "name": "DELETE: DELETE" }
               ]
             },
@@ -789,7 +789,7 @@
           "name": "Messaging/Queue",
           "children": [
             {
-              "name": "NServieBus",
+              "name": "NServiceBus",
               "url": "http://particular.net/nservicebus"
             },
             {
