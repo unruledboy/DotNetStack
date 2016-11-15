@@ -71,6 +71,7 @@ https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm
 				- async/await
 			- 4.6
 		- .NET Core
+			- ASP.NET Core
 		- Mono
 		- DNX (.NET Execution Environment)
 		- .NET Micro Framework (MF)

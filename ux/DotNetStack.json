@@ -87,7 +87,12 @@
             }
           ]
         },
-        { "name": ".NET Core" },
+        {
+              "name": ".NET Core",
+              "children": [
+                { "name": "ASP.NET Core" }
+              ]
+        },
         { "name": "Mono" },
         { "name": "DNX (.NET Execution Environment)" },
         { "name": ".NET Micro Framework (MF)" },
